@@ -10,7 +10,7 @@ margin-bottom:0px;
 /* where the heading is */
 
 body {
-width:830px; /* important for nav bar width */
+width:800px; /* important for nav bar width */
 margin:auto;
 letter-spacing: 0.25px;
 line-height:25px;
@@ -91,14 +91,21 @@ font-style:italic;
 }
 /* footer */
 
-img {
+.img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
   padding: 20px;
 }
-/* images */
+/* photography */
+
+.gif {
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding:20px;
+}
 
 figcaption {
 font-style:italic;
@@ -195,8 +202,12 @@ color:var(--purple);
 
 @media only screen and (max-width: 600px) {
   body {
-    width:100%;
+    width:90%;
   }
+    
+  main {
+      width:90%;
+}
   
   .tag {
       text-align:center;
