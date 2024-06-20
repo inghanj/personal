@@ -107,6 +107,11 @@ margin-right: auto;
 padding:20px;
 }
 
+.icon {
+display: inline;
+height:30px;
+}
+
 figcaption {
 font-style:italic;
 font-size:15px;
