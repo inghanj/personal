@@ -10,7 +10,7 @@ margin-bottom:0px;
 /* where the heading is */
 
 body {
-width:680px; /* important for nav bar width */
+width:800px; /* important for nav bar width */
 margin:auto;
 letter-spacing: 0.25px;
 line-height:25px;
@@ -60,13 +60,11 @@ font-weight:350;
 }
 /* most of the text */
 
-
 .note {
 margin:20px;
 border: 2px solid var(--yellow);
 padding:10px;
 box-shadow:0px 0px 10px #cc7a00;
-
 
 }
 
@@ -81,19 +79,16 @@ border: 2px solid var(--lgreen);
 padding:10px;
 box-shadow:0px 0px 10px var(--lgreen);
 
+
 }
 
 .nav2 ul {
 list-style-type:none;
 }
 
-.nav2 a {
+.nav2 li {
 text-decoration:none;
 list-style-type:none;
-color:var(--lgreen);
-}
-
-.nav2 p {
 text-align:center;
 }
 
