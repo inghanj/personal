@@ -16,13 +16,14 @@ letter-spacing: 0.25px;
 line-height:25px;
 font-size:18px;
 font-family:helvetica;
+height:100vh;
 
 background-color:#e6e6e6;
 }
 /* includes nav bar and title */
 
 main {
-height:590px;
+height:70%;
 width:610px;
 
 margin:auto;
@@ -95,6 +96,11 @@ color:var(--lgreen);
 
 .nav2 p {
 text-align:center;
+margin:auto;
+}
+
+.nav2 div {
+text-align:center;
 }
 
 /** same style as the notes, but for navigation **/
@@ -103,12 +109,6 @@ li {
 font-weight:350;
 }
 
-hr {
-width: 100%;
-margin-bottom:30px;
-margin-top:30px;
-}
-/* divider */
 
 footer {
 padding-top:20px;
@@ -116,6 +116,15 @@ text-align:center;
 font-style:italic;
 }
 /* footer */
+
+.spoiler { 
+  color: black; 
+  background-color:black;
+}
+
+.spoiler:hover{
+  color: white;
+  }
 
 .img {
   display: block;
@@ -239,7 +248,8 @@ color:var(--purple);
 
 @media only screen and (max-width: 690px) {
   body {
-    width:95%;
+    width:95vw;
+    height:auto;
   }
     
   main {
