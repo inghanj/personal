@@ -239,12 +239,16 @@ color:var(--purple);
 
 @media only screen and (max-width: 690px) {
   body {
-    width:90%;
+    width:95%;
   }
     
   main {
       width:90%;
       height:100%;
+      margin:0px;
+border:0px 0px 2px 2px solid;
+border-radius:10px;
+box-shadow:0px 0px black;
 }
   
   .tag {
@@ -257,8 +261,12 @@ margin-bottom:10px;
 border: 2px solid var(--yellow);
 padding:5px;
 box-shadow:0px 0px 10px #cc7a00;
-
+border-radius:10px;
 }    
+
+.nav ul {
+border-radius:10px;
+}
 
 .nav2 {
 margin:auto;
@@ -266,7 +274,7 @@ margin-bottom:10px;
 border: 2px solid var(--lgreen);
 padding:5px;
 box-shadow:0px 0px 10px var(--lgreen);
-
+border-radius:10px;
 
 }
 
@@ -282,6 +290,14 @@ padding:10px;
 .nav2 ul {
 list-style-type:none;
 padding:10px;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 0px;
 }
     
     
